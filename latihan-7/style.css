@@ -1,0 +1,60 @@
+htm,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  /* kutip nya harus satu string */
+  grid-template-areas:
+    "header header header"
+    "sidebar sidebar sidebar"
+    "content content content"
+    "footer footer footer";
+  gap: 10px;
+}
+
+.container .item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.container .header {
+  background-color: darkcyan;
+  grid-area: header;
+}
+
+.container .sidebar {
+  background-color: darkorange;
+  grid-area: sidebar;
+}
+
+.container .content {
+  background-color: darkolivegreen;
+  grid-area: content;
+}
+
+.container .footer {
+  background-color: darkorchid;
+  grid-area: footer;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* kutip nya harus satu string */
+    grid-template-areas:
+      "header header header"
+      "sidebar content content"
+      "sidebar content content"
+      "footer footer footer";
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 100px 30px;
+  grid-template-rows: 100px 40px;
+  /* grid-auto-rows: 50px; */
+  /* grid-auto-columns: 100px; */
+  grid-auto-flow: column;
+}
+
+.item {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(even) {
+  background-color: salmon;
+}
