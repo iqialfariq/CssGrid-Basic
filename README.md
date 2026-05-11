@@ -55,3 +55,42 @@ px, %, auto, fr.
   ```
 
 ---
+
+### 🔀 Grid Auto Rows 
+<p align="justify">
+Untuk menentukan tinggi baris yang dibuat secara implisit dalam grid. Jadi, jika sebuah item ditempatkan di baris yang belum didefinisikan dengan grid
+template-rows, maka baris baru akan otomatis dibuat, dan ukurannya mengikuti nilai grid-auto-rows. value grid-auto-rows ada 4 yaitu: px, %, auto, fr.
+</p>
+
+  Contoh:
+  ```css
+      .container {
+        display: grid;
+        grid-auto-rows: 150px;
+      }
+  ```
+
+---
+
+### 🔀 Grid Auto Flow
+<p align="justify">
+Untuk mengatur penempatan item atau cell pada grid track, termasuk yang ditulis secara implicit. Biasa nya digunakan untuk mengatur 
+kolom secara horizontal dan vertikal.
+</p>
+
+value grid-auto-flow ada 4 yaitu:
+1) row, 
+2) column, 
+3) row dense, 
+4) column dense. 
+
+  Contoh:
+  ```css
+      .container {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-auto-flow: row;
+      }
+  ```
+
+---
