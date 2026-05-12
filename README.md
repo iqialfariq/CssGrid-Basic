@@ -7,7 +7,7 @@ CSS Grid adalah sistem layout dua dimensi di CSS yang memungkinkan kita mengatur
 
 ## 📌 Property dan Value CSS Grid
 
-### 🔀 Grid Template Column
+### 📊 Grid Template Column
 <p align="justify">
 Untuk menentukan jumlah dan ukuran kolom dalam sebuah grid layout. Dengan properti ini, kita bisa mengatur apakah kolom berukuran tetap, fleksibel, atau
 mengikuti isi konten. value grid-template-column ada 4 : px, %, auto, fr.
@@ -23,7 +23,7 @@ mengikuti isi konten. value grid-template-column ada 4 : px, %, auto, fr.
 
 ---
 
-### 🔀 Grid Template Rows
+### 📈 Grid Template Rows
 <p align="justify">
 Untuk menentukan jumlah dan tinggi baris dalam sebuah grid layout. Nilai yang diberikan berupa daftar spasi, di mana setiap nilai mewakili tinggi dari
 baris tertentu value grid-template-rows ada 4 : px, %, auto, fr.
@@ -39,7 +39,7 @@ baris tertentu value grid-template-rows ada 4 : px, %, auto, fr.
 
 ---
 
-### 🔀 Grid Auto Columns
+### 🧩 Grid Auto Columns
 <p align="justify">
 Untuk menentukan ukuran kolom yang dibuat secara implisit dalam grid. Artinya, jika sebuah item ditempatkan di kolom yang belum didefinisikan dengan
 grid-template-columns, maka kolom baru akan otomatis dibuat, dan ukurannya mengikuti nilai grid-auto-columns. value grid-auto-columns ada 4 yaitu:
@@ -56,7 +56,7 @@ px, %, auto, fr.
 
 ---
 
-### 🔀 Grid Auto Rows 
+### 🧱 Grid Auto Rows 
 <p align="justify">
 Untuk menentukan tinggi baris yang dibuat secara implisit dalam grid. Jadi, jika sebuah item ditempatkan di baris yang belum didefinisikan dengan grid
 template-rows, maka baris baru akan otomatis dibuat, dan ukurannya mengikuti nilai grid-auto-rows. value grid-auto-rows ada 4 yaitu: px, %, auto, fr.
@@ -95,7 +95,7 @@ value grid-auto-flow ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Template Areas 
+### 🗺️ Grid Template Areas 
 <p align="justify">
 Untuk mendefinisikan grid template menggunakan nama dari area yang di tulis pada property grid areas. value grid-template-areas ditentukan oleh nama
 area nya itu sendiri.
@@ -117,7 +117,7 @@ area nya itu sendiri.
 
 ---
 
-### 🔀 Grid Area
+### 🪧 Grid Area
 <p align="justify">
 Digunakan untuk memberi nama pada area grid agar mudah direferensikan dengan grid-template-areas. value grid-area ditentukan oleh nama area nya itu 
 sendiri. 
@@ -143,7 +143,7 @@ sendiri.
 
 ---
 
-### 🔀 Column Gap
+### ↔️ Column Gap
 <p align="justify">
 digunakan untuk menentukan jarak horizontal antar kolom pada layout berbasis CSS Grid atau Multi-column layout. 
 </p>
@@ -165,7 +165,7 @@ value column-gap ada 4 yaitu:
 
 ---
 
-### 🔀 Rows Gap
+### ↕️ Rows Gap
 <p align="justify">
 Untuk menentukan jarak vertikal antar baris pada layout berbasis CSS Grid. 
 </p>
@@ -187,7 +187,7 @@ value rows-gap ada 4 yaitu:
 
 ---
 
-### 🔀 Justify Items 
+### 🎯 Justify Items 
 <p align="justify">
 untuk mengatur posisi horizontal (sepanjang inline axis atau mepet atas) dari semua item di dalam sebuah grid container.  
 </p>
@@ -210,7 +210,7 @@ value justify-items ada 4 yaitu:
 
 ---
 
-### 🔀 Align Items 
+### 📍 Align Items 
 <p align="justify">
 untuk mengatur posisi vertikal (sepanjang block axis atau mepet kiri) dari semua item di dalam sebuah container (baik Grid maupun Flexbox).  
 </p>
@@ -234,7 +234,7 @@ value align-items ada 4 yaitu:
 
 ---
 
-### 🔀 Place Items
+### ⚖️ Place Items
 <p align="justify">
 untuk menerapkan align items dan justify-items dalam satu deklarasi atau satu baris.  
 </p>
@@ -258,7 +258,7 @@ value place-items ada 4 yaitu:
 
 ---
 
-### 🔀 Justify Content 
+### 📏 Justify Content 
 <p align="justify">
 untuk mengatur seluruh grid container pada sumbu horizontal. Ini bisa dilakukan ketika ukuran total grid lebih kecil dari ukuran containernya, 
 biasanya ketika grid items nya menggunakan ukuran yang fixed (px) 
@@ -285,7 +285,7 @@ value justify-content ada 7 yaitu:
 
 ---
 
-### 🔀 Align Content 
+### 📐 Align Content 
 <p align="justify">
 untuk mengatur posisi keseluruhan grid tracks (baris) di sepanjang block axis (vertikal). 
 </p>
@@ -314,7 +314,7 @@ value align-content ada 7 yaitu:
 
 ---
 
-### 🔀 Place Content 
+### 🪄 Place Content 
 <p align="justify">
 untuk menerapkan align content dan justify-content dalam satu deklarasi atau satu baris. 
 </p>
@@ -344,7 +344,7 @@ value place-content ada 7 yaitu:
 
 ---
 
-### 🔀 Grid Column Start  
+### ⬅️ Grid Column Start  
 <p align="justify">
 untuk menentukan garis kolom tempat sebuah item grid akan dimulai. Dengan kata lain, ini mengatur posisi awal elemen di dalam grid container
 berdasarkan garis kolom yang sudah ditentukan. 
@@ -371,7 +371,7 @@ value grid-column-start ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Column End
+### ➡️ Grid Column End
 <p align="justify">
 untuk menentukan garis kolom tempat sebuah item grid berakhir. Dengan kata lain, ini mengatur titik akhir horizontal dari area grid yang ditempati
 elemen. 
@@ -399,7 +399,7 @@ value grid-column-end ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Column
+### 📦 Grid Column
 <p align="justify">
 untuk shorthand (singkatan) pada grid-column-start dan grid-column-end sekaligus. Dengan kata lain, properti ini menentukan rentang kolom yang
 ditempati sebuah item grid, dari garis awal hingga garis akhir. value grid-column adalah nomor line kolom itu sendiri
@@ -427,7 +427,7 @@ value grid-column ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Row Start 
+### ⬆️ Grid Row Start 
 <p align="justify">
 untuk menentukan garis baris (row line) tempat sebuah item grid akan dimulai. Dengan kata lain, ini mengatur titik awal vertikal dari area grid yang
 ditempati elemen. 
@@ -455,7 +455,7 @@ value grid-row-start ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Row End 
+### ⬇️ Grid Row End 
 <p align="justify">
 untuk menentukan garis baris (row line) tempat sebuah item grid berakhir. Dengan kata lain, ini mengatur titik akhir vertikal dari area grid yang
 ditempati elemen. 
@@ -484,7 +484,7 @@ value grid-row-start ada 4 yaitu:
 
 ---
 
-### 🔀 Grid Row
+### 🗂️ Grid Row
 <p align="justify">
 untuk shorthand (singkatan) pada grid-row-start dan gridrow-end sekaligus. Dengan kata lain, properti ini menentukan rentang baris (row) yang ditempati
 sebuah item grid, dari garis awal hingga garis akhir. value grid-row adalah nomor line baris itu sendiri 
@@ -512,7 +512,7 @@ value grid-row-start ada 4 yaitu:
 
 ---
 
-### 🔀 Justify Self
+### ↔️ Justify Self
 <p align="justify">
 untuk mengatur perataan (alignment) horizontal sebuah item grid di dalam sel grid-nya sendiri. Jadi, meskipun grid container sudah punya aturan
 distribusi kolom, setiap item bisa diatur secara individual dengan justify-self. 
@@ -541,7 +541,7 @@ value justify-self ada 4 yaitu:
 
 ---
 
-### 🔀 Align Self
+### ↕️ Align Self
 <p align="justify">
 untuk mengatur perataan (alignment) vertikal sebuah item grid atau flex di dalam sel/grid track-nya sendiri. Jadi, meskipun container sudah punya
 aturan global (align-items), setiap item bisa diatur secara individual dengan align-self. 
@@ -570,7 +570,7 @@ value align-self ada 4 yaitu:
 
 ---
 
-### 🔀 Special Function
+### 🛠️ Special Function
 
   ```
   repeat ()
