@@ -571,7 +571,7 @@ value align-self ada 4 yaitu:
 ---
 
 ### 🔀 Special Function
-  Contoh:
+
   ```
   repeat ()
   untuk mengulang sebuah ukuran columns atau rows yang sama tetapi lebih dari satu 
