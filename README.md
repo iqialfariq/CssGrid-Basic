@@ -101,7 +101,7 @@ Untuk mengatur penempatan item atau cell pada grid track, termasuk yang ditulis 
 kolom secara horizontal dan vertikal.
 </p>
 
-value grid-auto-flow ada 4 yaitu:
+value Grid Auto Flow ada 4 yaitu:
 1) row.
 2) column. 
 3) row dense. 
@@ -170,7 +170,7 @@ Untuk memberi nama pada area grid agar mudah direferensikan dengan grid-template
 Untuk menentukan jarak horizontal antar kolom pada layout berbasis CSS Grid atau Multi-column layout. 
 </p>
 
-value column-gap ada 4 yaitu: 
+value Column Gap ada 4 yaitu: 
 1) px.
 2) em. 
 3) rem. 
@@ -192,7 +192,7 @@ value column-gap ada 4 yaitu:
 Untuk menentukan jarak vertikal antar baris pada layout berbasis CSS Grid. 
 </p>
 
-value rows-gap ada 4 yaitu: 
+value Rows Gap ada 4 yaitu: 
 1) px. 
 2) em. 
 3) rem.
@@ -214,7 +214,7 @@ value rows-gap ada 4 yaitu:
 Untuk mengatur posisi horizontal (sepanjang inline axis atau mepet atas) dari semua item di dalam sebuah grid container.  
 </p>
 
-value justify-items ada 4 yaitu: 
+value Justify Items ada 4 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -237,7 +237,7 @@ value justify-items ada 4 yaitu:
 Untuk mengatur posisi vertikal (sepanjang block axis atau mepet kiri) dari semua item di dalam sebuah container (baik Grid maupun Flexbox).  
 </p>
 
-value align-items ada 4 yaitu: 
+value Align Items ada 4 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -261,7 +261,7 @@ value align-items ada 4 yaitu:
 Untuk menerapkan align items dan justify-items dalam satu deklarasi atau satu baris.  
 </p>
 
-value place-items ada 4 yaitu: 
+value Place Items ada 4 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -286,7 +286,7 @@ Untuk mengatur seluruh grid container pada sumbu horizontal. Ini bisa dilakukan 
 biasanya ketika grid items nya menggunakan ukuran yang fixed (px).
 </p>
 
-value justify-content ada 7 yaitu: 
+value Justify Content ada 7 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -312,7 +312,7 @@ value justify-content ada 7 yaitu:
 Untuk mengatur posisi keseluruhan grid tracks (baris) di sepanjang block axis (vertikal). 
 </p>
 
-value align-content ada 7 yaitu: 
+value Align Content ada 7 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -341,7 +341,7 @@ value align-content ada 7 yaitu:
 Untuk menerapkan align content dan justify-content dalam satu deklarasi atau satu baris. 
 </p>
 
-value place-content ada 7 yaitu: 
+value Place Content ada 7 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -372,7 +372,7 @@ Untuk menentukan garis kolom tempat sebuah item grid akan dimulai. Dengan kata l
 berdasarkan garis kolom yang sudah ditentukan. 
 </p>
 
-value grid-column-start ada 4 yaitu: 
+value Grid Column Start ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -399,7 +399,7 @@ Untuk menentukan garis kolom tempat sebuah item grid berakhir. Dengan kata lain,
 elemen. 
 </p>
 
-value grid-column-end ada 4 yaitu: 
+value Grid Column End ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -427,7 +427,7 @@ Untuk shorthand (singkatan) pada grid-column-start dan grid-column-end sekaligus
 ditempati sebuah item grid, dari garis awal hingga garis akhir.
 </p>
 
-value grid-column ada 4 yaitu: 
+value Grid Column ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -455,7 +455,7 @@ Untuk menentukan garis baris (row line) tempat sebuah item grid akan dimulai. De
 ditempati elemen. 
 </p>
 
-value grid-row-start ada 4 yaitu: 
+value Grid Row Start ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -477,13 +477,13 @@ value grid-row-start ada 4 yaitu:
 
 ---
 
-### ⬇️ Grid Row End 
+### ⬇️ Grid Row End
 <p align="justify">
 Untuk menentukan garis baris (row line) tempat sebuah item grid berakhir. Dengan kata lain, ini mengatur titik akhir vertikal dari area grid yang
 ditempati elemen. 
 </p>
 
-value grid-row-start ada 4 yaitu: 
+value Grid Row End ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -512,7 +512,7 @@ Untuk shorthand (singkatan) pada grid-row-start dan gridrow-end sekaligus. Denga
 sebuah item grid, dari garis awal hingga garis akhir.
 </p>
 
-value grid-row-start ada 4 yaitu: 
+value Grid Row ada 4 yaitu: 
 1) auto. 
 2) nomor. 
 3) span n. 
@@ -540,7 +540,7 @@ Untuk mengatur perataan (alignment) horizontal sebuah item grid di dalam sel gri
 distribusi kolom, setiap item bisa diatur secara individual dengan justify-self. 
 </p>
 
-value justify-self ada 4 yaitu: 
+value Justify Self ada 4 yaitu: 
 1) start. 
 2) end. 
 3) center. 
@@ -569,7 +569,7 @@ Untuk mengatur perataan (alignment) vertikal sebuah item grid atau flex di dalam
 aturan global (align-items), setiap item bisa diatur secara individual dengan align-self. 
 </p>
 
-value align-self ada 4 yaitu: 
+value Align Self ada 4 yaitu: 
 1) start. 
 2) end. 
 3) center. 
