@@ -596,20 +596,20 @@ value Align Self ada 4 yaitu:
 
   ```
   repeat ()
-  untuk mengulang sebuah ukuran columns atau rows yang sama tetapi lebih dari satu. 
+  Untuk mengulang sebuah ukuran columns atau rows yang sama tetapi lebih dari satu. 
   ```
 
   ```
   min-content dan max-content
-  untuk menentukan seberapa besar ukuran grid track bedasarkan konten pada sebuah item. 
+  Untuk menentukan seberapa besar ukuran grid track bedasarkan konten pada sebuah item. 
   ```
 
   ```
   auto-fill dan auto-fitt
-  untuk menentukan jumlah item untuk berada pada grid track.  
+  Untuk menentukan jumlah item untuk berada pada grid track.  
   ```
 
   ```
   minmax () 
-  untuk menentukan ukuran minimal dan maksimal dari grid track. 
+  Untuk menentukan ukuran minimal dan maksimal dari grid track. 
   ```
